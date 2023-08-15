@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        드디어 바뀐다!!?
+        드디어 바뀐다!!!
         </a>
       </header>
     </div>
