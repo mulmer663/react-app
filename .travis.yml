@@ -15,10 +15,9 @@ before_install:
 
 # 실행할 스크립트 (여기선 테스트)
 script: 
-  - docker run -e CI=true ssonth12/reacht-app npm run test -- --coverage
+  - docker run -e CI=true ssonth12/react-app npm run test -- --coverage
 
 # 성공 시 출력
 after_success:
   - echo "Test Success"
-    
     
