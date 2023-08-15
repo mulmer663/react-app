@@ -9,7 +9,8 @@ RUN npm install
 
 COPY ./ ./
 
-CMD ["npm", "run", "builder"]
+#CMD ["RUN", "npm", "build"]
+RUN npm run build
 
 # Run stage (Nginx가 빌더 파일을 구동시키는 부분)
 # nginx를 위한 베이스 이미지
